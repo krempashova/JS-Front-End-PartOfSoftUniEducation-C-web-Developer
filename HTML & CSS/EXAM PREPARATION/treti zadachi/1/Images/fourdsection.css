@@ -1,0 +1,21 @@
+.fordsection{
+    background-color:#85DCFF;
+    text-align: center;
+}
+.tomakeflex{
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+.forflexg{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.secondforflexing{
+    display: block;
+    width: 100%;
+    height: auto;
+}

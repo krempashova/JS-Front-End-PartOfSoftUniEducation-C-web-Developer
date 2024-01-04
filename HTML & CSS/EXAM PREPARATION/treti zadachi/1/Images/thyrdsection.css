@@ -1,0 +1,70 @@
+.thirdsection{
+    background-color:whitesmoke;
+ 
+ 
+}
+.descripotio{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap:100px;
+  
+
+ 
+}
+.house{
+   text-align: center;
+   width: 300px;
+   height: 300px;
+   display: block;
+   padding-left: 35px;
+
+ 
+}
+.helicopetr{
+    text-align: center;
+    width: 300px;
+   height: 300px;
+   display: block;
+   padding-left: 35px;
+}
+.pencil{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    display: block;
+    padding-left: 35px;}
+.house h5{
+    font-size:14px;
+}
+.house i{
+    font-size: 60px;
+    color:#85DCFF;
+}
+.house  p{
+ font-size: 12px;
+}
+.helicopetr h5{
+    font-size:14px;
+}
+.helicopetr i{
+    font-size: 60px;
+    color:#85DCFF;
+}
+.helicopetr p{
+    font-size: 12px;
+}
+.pencil p{
+    font-size: 12px;
+}
+.pencil i{
+    font-size: 60px;
+    color:#85DCFF;
+}
+.pencil h5{
+    font-size:14px;
+}

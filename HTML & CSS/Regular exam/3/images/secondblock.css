@@ -1,0 +1,24 @@
+.secondblock{
+    display: flex;
+   align-self: center;
+    gap:30px;
+    justify-content: center;
+}
+.first{
+    display: block;
+    width: 15%;
+}
+.first::before{
+    border: 1px solid black;
+}
+.first::after{
+ border: 1px solid black;
+}
+.sec{
+    display: block;
+    width: 15%;
+}
+.thyrd{
+    display: block;
+    width: 15%;
+}

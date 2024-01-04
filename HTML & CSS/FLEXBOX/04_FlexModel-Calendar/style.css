@@ -1,0 +1,53 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 65vw;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .week {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+  }
+  
+  .week span {
+    flex: auto;
+    height: 4rem;
+  }
+  
+  .week span:nth-child(1), .week span:nth-child(7) {
+    width: 100%;
+  }
+
+  .week span:nth-child(2), .week span:nth-child(3), .week span:nth-child(4),.week span:nth-child(5),.week span:nth-child(6) {
+    width: 15%;
+    flex-wrap: nowrap;
+  }
+  
+  .week span:nth-child(8), .week span:nth-child(9) {
+    flex:auto;
+  }
+  
+  .notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    text-align: center;
+  }
+  
+  .notes span {
+    flex-grow: 1;
+  }
+  
+  span {
+    border: 1px solid black;
+    padding: 0.5rem;
+  }

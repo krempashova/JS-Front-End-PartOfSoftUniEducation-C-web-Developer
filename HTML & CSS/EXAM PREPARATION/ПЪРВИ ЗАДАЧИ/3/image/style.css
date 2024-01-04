@@ -1,0 +1,19 @@
+*{
+    padding:0;
+    margin:0;}
+    
+    * , *::before , *::after{
+    box-sizing:inherit;}
+    
+    html{
+    box-sizing:border-box;}
+    .conteiner{
+        display: flex;
+        flex: 0 0 50%;
+        
+    }
+    .left section{
+        flex: 0 0 50%;
+        width: 60%
+
+    }

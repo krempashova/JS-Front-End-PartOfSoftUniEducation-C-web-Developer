@@ -1,0 +1,28 @@
+ body header{
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+   
+}
+  nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 900px;
+ 
+
+
+  }
+    a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    padding: 20px;
+    align-items: center;
+    display: flex;
+   
+
+  }
+  h1{
+    text-transform: uppercase;
+  }
+
+
+

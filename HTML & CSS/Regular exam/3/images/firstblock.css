@@ -1,0 +1,54 @@
+header{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+.forflex{
+    display: flex;
+    gap:20px;
+}
+.forflex a{
+text-decoration: none;
+color: #575657;
+}
+.secondflex{
+    display: flex;
+    gap:20px;
+}
+.secondflex a{
+    text-decoration: none;
+    color: #575657;
+}
+.coloring a{
+  background-color: #ADE2DF;
+  border-radius: 5px;
+ padding: 10px 10px 10px 10px;
+ text-align: center;
+}
+.greenpart{
+    background-color:  #ADE2DF;
+    text-align: center;
+}
+.greenpart h1{
+
+    padding-bottom: 30px;
+}
+.greenpart p{
+    padding-bottom: 40px;
+}
+.bth{
+    display: block;
+    align-items: center;
+    padding-bottom: 80px;
+    
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+   
+}

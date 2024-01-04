@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center -50em;
+}
+
+html {
+    font: 14px "Inter", sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.container .payment-card {
+    background-color: #FFF;
+    padding: 20px 25px;
+    max-width: 360px;
+}
+
+.container .payment-card header {
+    line-height: 1.7;
+}
+
+.container .payment-card .payment-version {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.payment-card .fee-amount {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.payment-card .payment-billing {
+    color: rgb(94, 92, 89);
+    font-size: 12px;
+}
+
+.payment-card .dollar-sign,
+.payment-card .monthly {
+    color: rgb(34, 23, 36);
+}
+
+.payment-card .version-access {
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.payment-card .version-access .checkmark {
+    padding-right: 5px;
+}
+
+.payment-card .version-access ul {
+    list-style: none;
+}
+
+.payment-card .version-access li {
+    padding: 5px 0;
+}
+
+.payment-card a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #000;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+.payment-card .sub-btn {
+    padding-bottom: 15px;
+}
+
+.container .payment-card-mid {
+    background-color: #FFF;
+    padding: 20px 25px;
+    max-width: 360px;
+    min-height: 425px;
+}
+
+.container .payment-card-mid header {
+    line-height: 1.7;
+}
+
+.container .payment-card-mid .payment-version {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.payment-card-mid .fee-amount {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.payment-card-mid .payment-billing {
+    color: rgb(94, 92, 89);
+    font-size: 12px;
+}
+
+.payment-card-mid .dollar-sign,
+.payment-card-mid .monthly {
+    color: rgb(34, 23, 36);
+}
+
+.payment-card-mid .version-access {
+    padding-top: 15px;
+}
+
+.payment-card-mid .version-access .checkmark {
+    padding-right: 5px;
+}
+
+.payment-card-mid .version-access ul {
+    list-style: none;
+}
+
+.payment-card-mid .version-access li {
+    padding: 5px 0;
+}
+
+.payment-card-mid a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #000;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+.payment-card-mid .sub-btn {
+    padding-top: 55px;
+}

@@ -1,0 +1,19 @@
+
+
+.allnavigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto; 
+    height: auto;
+    background-color: #FFF;
+    padding: 1em 3em;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+.navigation{
+  display: flex;
+  gap:15px;
+  
+}

@@ -1,0 +1,35 @@
+html
+{
+    font-family: Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+nav
+{   
+    display: inline-block;
+}
+nav li
+{
+    display: inline-block;
+    margin-left: 20px;
+   
+
+}
+nav a 
+{
+    color: greenyellow;
+    text-decoration: none;
+   
+
+   
+    
+}
+hr
+{
+    background-color: black;
+    height: 1px;
+}
+span {
+    font-size: 30px;
+    margin-right: 60px;
+}
